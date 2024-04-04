@@ -17,7 +17,7 @@ function login(event) {
     data.append('pwd', pwd);
     data.append('rol', rol);
 
-    const request = new Request(base_url + login_url, {
+    const request = new Request(BASE_URL + login_url, {
         method: "POST",
         body: data
     });
