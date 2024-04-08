@@ -31,8 +31,8 @@ class UsuarioController
         //Para simplificar la implementación del ejemplo de SPA vamos a obviar la redirección en caso de que ya haya iniciado sesión
 
 
-        $this->page_title = 'Inicio de sesión';
-        $this->view = self::VIEW_FOLDER . DIRECTORY_SEPARATOR . 'login';
+        // $this->page_title = 'Inicio de sesión';
+        // $this->view = self::VIEW_FOLDER . DIRECTORY_SEPARATOR . 'login';
 
         if (isset($_POST["email"]) && isset($_POST["pwd"]) && isset($_POST["rol"])) {
             $email = $_POST["email"];
